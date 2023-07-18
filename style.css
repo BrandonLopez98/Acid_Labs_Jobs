@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#myVideo {
+    max-width: 100vw;
+}
+
+.nav {
+    position: absolute;
+    top: 0;
+    background-color: black;
+    color: #f1f1f1;
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.nav img{
+ margin: 3vw 0 2vw 0;
+}
+.div_inferior_video {
+    position: absolute;
+    bottom: 0;
+    color: #f1f1f1;
+    width: 100%;
+    overflow: hidden;
+}
+.vacantes{
+    background-color: black; 
+    width: 100vw;
+    overflow: hidden;
+}
+.div_img_jobs{
+     text-align: right;
+}
+
+.col1 {
+    width: 48%;
+    margin-bottom: 3vw;
+}
+.col2 {
+    width: 47%;
+    text-align: center;
+}
+
+.col1,.col2 {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    margin-left: 2vw;
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+
+}
+.centrado{
+    position: absolute;
+    bottom: 0;
+    border: none;
+}
+.text_footer{
+    color: white;
+    font-size: 3vw;;
+    text-align: center;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 2vw;
+}
+.text_footer_2{
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.btn{
+    background-color: #3f55ab;
+    padding: 1vw 2vw 1vw 2vw;
+    margin: 1.5vw;
+    border-radius: 50px;
+    color: white;
+    font-size: 2vw;
+}
+.footer{
+    background-color: black;
+    color: white;  
+    font-size: 1vw;
+    text-align: center;
+}
+
+.conten_img_footer{
+    display: flex;
+    justify-content:center;
+}
+
+.img-footer{
+    width: 4vw;
+    margin-right: 1vw;
+    margin-bottom: 3vw;
+}
+
+.descripcion p{
+    background-color: #3f55ab;
+    padding: 2vw 1vw 2vw 1vw;
+    font-size: 50px;
+    color: white;
+}
+.col2 p {
+    text-align: center;
+}
+
+.btn_aplica{
+    text-align: center;
+    justify-content: center;
+    background-color: #3f55ab;
+    padding: 1vw 1.5vw 1vw 1.5vw;
+    margin: 1.5vw;
+    border-radius: 20px;
+    color: white;
+    font-size: 1vw;
+}
+
+
+@media screen and (max-width: 992px) {
+
+    .col1,.col2 {
+        display: block;
+    }
+    .col1 {
+        width: 98%;
+
+    }
+    .col2 {
+        width: 98%;
+    }
+
+    
+}
